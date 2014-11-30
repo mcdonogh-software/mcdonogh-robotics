@@ -1,0 +1,136 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="BackRightLimit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="245"/>
+	</widget>
+	<widget field="BackLeftLimit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="196"/>
+	</widget>
+	<widget field="Cont1..2X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.ProgressBar">
+		<location x="181" y="245"/>
+		<width>308</width>
+		<height>34</height>
+	</widget>
+	<widget field="Cont1Dir" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.SimpleDial">
+		<location x="-3" y="289"/>
+		<width>273</width>
+		<height>180</height>
+		<property name="Upper Limit" value="140.0"/>
+		<property name="Lower Limit" value="-140.0"/>
+		<property name="Tick Interval" value="20.0"/>
+	</widget>
+	<widget field="Cont1Mag" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.SimpleDial">
+		<location x="226" y="294"/>
+		<width>269</width>
+		<height>178</height>
+		<property name="Upper Limit" value="1.01"/>
+		<property name="Tick Interval" value="0.1"/>
+	</widget>
+	<widget field="Move_Trigger_Cont1" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="266" y="69"/>
+	</widget>
+	<widget field="Arm_Value" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="224"/>
+	</widget>
+	<widget field="BlueIt" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="5" y="162"/>
+	</widget>
+	<widget field="Team Color" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="-27" y="-10"/>
+		<width>1663</width>
+		<height>29</height>
+		<property name="Color to show when true" value="0.51.255.255"/>
+	</widget>
+	<widget field="MaxBotix_sensor" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="604" y="115"/>
+		<width>182</width>
+		<height>20</height>
+	</widget>
+	<widget field="Holding Ball" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1070" y="89"/>
+		<width>93</width>
+		<height>40</height>
+	</widget>
+	<widget field="FrontLeftLimit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1034" y="276"/>
+		<width>92</width>
+		<height>30</height>
+	</widget>
+	<widget field="Back Right Limit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1155" y="193"/>
+		<width>103</width>
+		<height>33</height>
+	</widget>
+	<widget field="Back Left Limit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1053" y="191"/>
+		<width>98</width>
+		<height>37</height>
+	</widget>
+	<widget field="FrontRightLimit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1171" y="276"/>
+		<width>100</width>
+		<height>31</height>
+	</widget>
+	<widget field="Catapult Limit Switch" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1112" y="168"/>
+		<width>116</width>
+		<height>62</height>
+	</widget>
+	<widget field="GrabberGroup" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="5" y="135"/>
+	</widget>
+	<widget field="Ready to Fire?" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="612" y="421"/>
+	</widget>
+	<widget field="SensorGroup" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="5" y="110"/>
+	</widget>
+	<widget field="Ready to Grab" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="815" y="334"/>
+		<height>20</height>
+	</widget>
+	<widget field="Override" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="857" y="362"/>
+	</widget>
+	<widget field="LeftArm" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="895" y="122"/>
+	</widget>
+	<widget field="DriveGroup" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="3" y="80"/>
+	</widget>
+	<widget field="powerForFire" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="820" y="312"/>
+	</widget>
+	<widget field="RightArm" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1188" y="125"/>
+	</widget>
+	<widget field="IR_sensor" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="635" y="89"/>
+		<width>149</width>
+		<height>20</height>
+	</widget>
+	<widget field="Too Close" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="630" y="460"/>
+	</widget>
+	<widget field="timeToFire" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="834" y="286"/>
+	</widget>
+	<widget field="FireCatapult" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="2" y="50"/>
+	</widget>
+	<widget field="AutoMode" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="819" y="398"/>
+	</widget>
+	<widget field="Autonomous Command" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1" y="22"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="950" y="44"/>
+		<width>337</width>
+		<height>398</height>
+		<property name="Image File" value="C:\Users\Developer\Pictures\robot for sfx (1).png"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>

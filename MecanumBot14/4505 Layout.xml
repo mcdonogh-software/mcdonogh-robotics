@@ -1,0 +1,92 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="MaxBotix_sensor" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.ProgressBar">
+		<location x="403" y="90"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.camera.WPICameraExtension">
+		<location x="805" y="57"/>
+		<width>490</width>
+		<height>349</height>
+	</static-widget>
+	<widget field="BackRightLimit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="624"/>
+	</widget>
+	<widget field="GrabberGroup" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="0" y="590"/>
+	</widget>
+	<widget field="Ready to Fire?" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="569"/>
+	</widget>
+	<widget field="Arm_Value" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="548"/>
+	</widget>
+	<widget field="Back Right Limit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="527"/>
+	</widget>
+	<widget field="BlueIt" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="0" y="493"/>
+	</widget>
+	<widget field="SensorGroup" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="0" y="459"/>
+	</widget>
+	<widget field="Ready to Grab" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="438"/>
+	</widget>
+	<widget field="Override" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="417"/>
+	</widget>
+	<widget field="LeftArm" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="396"/>
+	</widget>
+	<widget field="DriveGroup" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="0" y="362"/>
+	</widget>
+	<widget field="Back Left Limit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="341"/>
+	</widget>
+	<widget field="powerForFire" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="320"/>
+	</widget>
+	<widget field="Team Color" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="299"/>
+	</widget>
+	<widget field="FrontRightLimit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="278"/>
+	</widget>
+	<widget field="RightArm" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="257"/>
+	</widget>
+	<widget field="Catapult Limit Switch" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="236"/>
+	</widget>
+	<widget field="IR_sensor" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="215"/>
+	</widget>
+	<widget field="Too Close" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="194"/>
+	</widget>
+	<widget field="FrontLeftLimit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="173"/>
+	</widget>
+	<widget field="timeToFire" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="336" y="237"/>
+	</widget>
+	<widget field="FireCatapult" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="0" y="118"/>
+	</widget>
+	<widget field="AutoMode" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="97"/>
+	</widget>
+	<widget field="Autonomous Command" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="0" y="42"/>
+	</widget>
+	<widget field="BackLeftLimit" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="21"/>
+	</widget>
+	<widget field="Holding Ball" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="0"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
