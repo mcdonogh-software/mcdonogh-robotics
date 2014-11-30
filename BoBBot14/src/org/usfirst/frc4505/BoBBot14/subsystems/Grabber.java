@@ -46,7 +46,7 @@ public class Grabber extends Subsystem {
     public void useShooter() {
         if (Robot.oi.getTrigger2() > .8) {
             sucker.set(0.0);
-            shooterSolenoid.set(true);
+            shooterSolenoid.set(DoubleSolenoid.Value.kForward);
         }
     }
     
