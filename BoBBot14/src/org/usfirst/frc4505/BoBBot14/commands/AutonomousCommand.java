@@ -8,7 +8,7 @@
 // update. Deleting the comments indicating the section will prevent
 // it from being updated in the future.
 package org.usfirst.frc4505.BoBBot14.commands;
-import edu.wpi.first.wpilibj.GenericHID;
+import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc4505.BoBBot14.Robot;
 /**
@@ -27,17 +27,17 @@ public class  AutonomousCommand extends Command {
     }
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-        if (Robot.oi.getRightArm().getY(GenericHID.Hand.kRight) == 0.0)
-            System.out.println("right hand in zone");
-        else
-            System.out.println("no hand in zone");
+        Robot.drivetrain.autoMoveForward(2.2, -0.4);
+        Robot.grabber.pvcUp();
+        isFinished();
     }
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        return false;
+        return true;
     }
     // Called once after isFinished returns true
     protected void end() {
+        Timer.delay(5.0);
     }
     // Called when another command which requires one or more of the same
     // subsystems is scheduled to run
